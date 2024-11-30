@@ -5,7 +5,7 @@ redirect_from:
   - /dev/simple_game/
 ---
 
-Let's make a game! Game design is hard, but if you break up the process into small, achievable goals, you'll be able to produce wonders. In this simple game tutorial, you will learn how to make a basic game from scratch. These are the essential skills that you will build on in future projects.
+Let's make a game! Game design is hard, but if you break up the process into small, achievable goals, you'll be able to produce wonders. In this simple game tutorial, you will learn how to make a basic game from scratch. These are the essential skills that you will build on in future projects. You may watch the [video tutorial](https://youtu.be/aipDYyh1Mlc), however you should come back here for the code examples.
 
 {% include embed-gwt.html dir='a-simple-game' %}
 
