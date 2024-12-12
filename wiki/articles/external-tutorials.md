@@ -62,8 +62,8 @@ These are webpages where individuals or companies write about their experience w
 
 ## Some simple open-source projects for reference
 These are some open-source projects found on the web that use libGDX and can be used as reference. This list is intentionally kept as clean and interesting as possible (you won't see repeated projects nor _Hello-World kind-of-games_ here).
-* [Fire and Ice](https://github.com/lyze237/FireAndIce) (uses tile maps)
-* [On Guard](https://github.com/lyze237/On-Guard) (uses tile maps)
+* [Fire and Ice](https://gitlab.com/lyze237/FireAndIce/) (uses tile maps)
+* [On Guard](https://gitlab.com/lyze237/OnGuard) (uses tile maps)
 * [Lendigastel](https://github.com/mgsx-dev/dl9) (3D; uses [gdx-gltf](https://github.com/mgsx-dev/gdx-gltf))
 * [libGDX vs Ray3K](https://github.com/raeleus/libgdx-jam-june-2020) (local multiplayer Smash Bros. clone)
 * [Super Spineboy](https://github.com/EsotericSoftware/spine-superspineboy) (a platformer using [Spine](http://www.esotericsoftware.com))
