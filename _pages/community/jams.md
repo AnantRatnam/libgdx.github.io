@@ -57,7 +57,7 @@ We encourage camaraderie, teamwork, and good sportsmanship with a side of well-i
 
 # Past Jams
 * [Roguelike](https://itch.io/jam/libgdx-jam-31) (December 2024)
-* [The 4 Elements(Fire, Water, Earth, Air)](https://itch.io/jam/libgdx-jam-30) (September 2024)
+* [The 4 Elements (Fire, Water, Earth, Air)](https://itch.io/jam/libgdx-jam-30) (September 2024)
 * [TIME TRAVEL](https://itch.io/jam/libgdx-jam-29) (June 2024)
 * [THE UNDERWORLD](https://itch.io/jam/libgdx-jam-28) (March 2024)
 * [It Came From Above](https://itch.io/jam/libgdx-jam-27) (December 2023)
