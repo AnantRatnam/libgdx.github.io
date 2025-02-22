@@ -42,6 +42,7 @@ The following configuration file will make your libGDX app work with ProGuard/R8
    boolean contactFilter(long, long);
    void    beginContact(long);
    void    endContact(long);
+   boolean getUseDefaultContactFilter();
    void    preSolve(long, long);
    void    postSolve(long, long);
    boolean reportFixture(long);
