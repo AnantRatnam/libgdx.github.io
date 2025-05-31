@@ -3,7 +3,7 @@ title: OpenGL (ES) Support
 ---
 # What are (Open) GL and GL ES?
 
-Whenever libGDX is talking about GL20 or GL30, it is in fact referring to **OpenGL ES 2.0** and **OpenGL ES 3.0**. OpenGL ES is an API for rendering 2D and 3D computer graphics. Other popular graphics APIs are for example Direct3D, Metal or Vulcan. OpenGL ES exists in different versions (1.0, 1.1, 2.0, 3.0, 3.1, 3.2) which offer different functionality. It can be seen as a subset of _OpenGL_ (which itself is a graphics API) and is designed for embedded systems (hence the name OpenGL _ES_), in particular smartphones.
+Whenever libGDX is talking about GL20 or GL30, it is in fact referring to **OpenGL ES 2.0** and **OpenGL ES 3.0**. OpenGL ES is an API for rendering 2D and 3D computer graphics. Other popular graphics APIs are for example Direct3D, Metal or Vulkan. OpenGL ES exists in different versions (1.0, 1.1, 2.0, 3.0, 3.1, 3.2) which offer different functionality. It can be seen as a subset of _OpenGL_ (which itself is a graphics API) and is designed for embedded systems (hence the name OpenGL _ES_), in particular smartphones.
 
 By default, libGDX is relying on version 2.0 of OpenGL ES, but it can be configured to use 3.0 as well. The LWJGL 3 backend also supports **GL ES 3.1 and 3.2**. To use a specific OpenGL ES version, it has to be enabled in the application configuration. For the LWJGL 3 backend, this works as follows:
 
