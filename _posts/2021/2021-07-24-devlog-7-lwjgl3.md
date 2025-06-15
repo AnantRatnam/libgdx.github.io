@@ -20,6 +20,8 @@ tags:
 categories: news
 ---
 
+_(Last updated: 15 June 2025)_
+
 In the next release of libGDX we are switching our default desktop backend from LWJGL 2 to LWJGL 3. This Status Report is meant to provide some background information on this change.
 
 ### What is LWJGL?
@@ -80,7 +82,7 @@ You can either run the JVM with the [`-XstartOnFirstThread`](https://github.com/
     jvmArgs = ['-XstartOnFirstThread']
 ```
 
-Alternatively, you can use a custom experimental implementation of the GLFW library by adding this code snippet to the start of your `main()` method:
+Alternatively, you can use an [experimental](https://github.com/libgdx/libgdx/pull/7361#issuecomment-1986915854) implementation of the [GLFW library](https://javadoc.lwjgl.org/org/lwjgl/glfw/package-summary.html#using-glfw-on-macos-heading) by adding this code snippet to the start of your `main()` method:
 
 ```java
 if (SharedLibraryLoader.isMac) {
@@ -88,7 +90,7 @@ if (SharedLibraryLoader.isMac) {
 }
 ```
 
-A third option, especially viable  for _outside of your development environment_, is to just programatically restart the JVM if the argument is not present (see [here](https://github.com/crykn/guacamole/blob/master/gdx-desktop/src/main/java/de/damios/guacamole/gdx/StartOnFirstThreadHelper.java#L69) for a simple example).
+A third option, especially viable  for _outside of your development environment_, is to just programatically restart the JVM if the argument is not present (see [here](https://github.com/crykn/guacamole/blob/82a66078e190a563afd60de8804274904744d4d2/gdx-desktop/src/main/java/de/damios/guacamole/gdx/StartOnFirstThreadHelper.java#L78) for a simple example).
 
 ### Are there any other things I need to be aware of?
 - Whenever your **application is minimised**, the LWJGL 3 backend calls `ApplicationListener#resize(0, 0)`. This can lead to unexpected issues, in particular if you are (re)building framebuffers whenever the application is resized.
