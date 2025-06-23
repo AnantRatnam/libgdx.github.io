@@ -16,18 +16,6 @@ toc_sticky: false
 
 {% include breadcrumbs.html %}
 
-# Ongoing
-
-## June 2025
-Summer Throwdown Jam  
-All entries must feature an epic boss fight.  
-No suggestions.  
-Theme: **Nature's Revenge**    
-Voting: 12th – 14th  
-Jam: 15th – 21st
-
-<big>[Enter here!](https://itch.io/jam/libgdx-jam-33)</big>
-
 # Upcoming
 If you want to stay up to date – join the official [libGDX Discord](/community/discord/)!
 
@@ -55,6 +43,7 @@ We encourage camaraderie, teamwork, and good sportsmanship with a side of well-i
 <br/>
 
 # Past Jams
+* [Nature's Revenge](https://itch.io/jam/libgdx-jam-33) (June 2025)
 * [Magic and Spells](https://itch.io/jam/libgdx-jam-32) (March 2025)
 * [Roguelike](https://itch.io/jam/libgdx-jam-31) (December 2024)
 * [The 4 Elements (Fire, Water, Earth, Air)](https://itch.io/jam/libgdx-jam-30) (September 2024)
