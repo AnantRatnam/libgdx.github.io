@@ -19,11 +19,6 @@ toc_sticky: false
 # Upcoming
 If you want to stay up to date – join the official [libGDX Discord](/community/discord/)!
 
-## September 2025
-Suggestions: 7th – 9th  
-Voting: 11th – 13th  
-Jam: 14th – 20th
-
 ## December 2025
 Suggestions: Nov. 30th – Dec. 2nd   
 Voting: 4th – 6th  
@@ -43,6 +38,7 @@ We encourage camaraderie, teamwork, and good sportsmanship with a side of well-i
 <br/>
 
 # Past Jams
+* [Dungeons](https://itch.io/jam/libgdx-jam-34) (September 2025)
 * [Nature's Revenge](https://itch.io/jam/libgdx-jam-33) (June 2025)
 * [Magic and Spells](https://itch.io/jam/libgdx-jam-32) (March 2025)
 * [Roguelike](https://itch.io/jam/libgdx-jam-31) (December 2024)
