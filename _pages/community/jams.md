@@ -16,13 +16,16 @@ toc_sticky: false
 
 {% include breadcrumbs.html %}
 
-# Upcoming
+# Ongoing
 If you want to stay up to date – join the official [libGDX Discord](/community/discord/)!
 
 ## December 2025
 Suggestions: Nov. 30th – Dec. 2nd   
 Voting: 4th – 6th  
 Jam: 7th – 13th
+
+<big>[Enter here!](https://itch.io/jam/libgdx-jam-35)</big>
+
 <br/>
 
 # Rules
