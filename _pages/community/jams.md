@@ -26,8 +26,6 @@ Jam: 7th – 13th
 
 <big>[Enter here!](https://itch.io/jam/libgdx-jam-35)</big>
 
-<br/>
-
 # Rules
 We encourage camaraderie, teamwork, and good sportsmanship with a side of well-intentioned buffoonery. Nonetheless, there are some rules to be followed:
 
