@@ -97,7 +97,7 @@ Battle your way through a dangerous digital world and save it from an evil virus
 
 <div style="clear: both; width: 100%; height: 1px;"></div>
 
-## [Sandship](http://rockbitegames.com/sandship/) by Rockbite Games
+## [Sandship](https://rockbitegames.com/games/sandship) by Rockbite Games
 <img align="right" src="https://play-lh.googleusercontent.com/zVcowfZOhVnUaYCRDu5YkLTczk7eHG2JeVoHZ36aY249O1I0Mm2e_f_IqzPsDNzUug=w460-h215-r" style="margin-left: 25px; margin-top: 17px; margin-bottom: 10px" class="lazyload">
 
 Sandship is a factory management game set in a post-apocalyptic sci-fi universe. You control the last remaining sandship: a gigantic, artificially intelligent mega-factory, which roams across the endless deserts of a far-away planet. [[Android](https://play.google.com/store/apps/details?id=com.rockbite.sandship) / [iOS](https://apps.apple.com/us/app/sandship-crafting-factory/id1440385758)]
@@ -111,7 +111,7 @@ The awesome Zombie Age series returns with a lot more of savage zombies, deadly 
 
 <div style="clear: both; width: 100%; height: 1px;"></div>
 
-## [Deep Town](http://rockbitegames.com/deep-town/) by Rockbite Games
+## [Deep Town](https://rockbitegames.com/games/deeptown) by Rockbite Games
 <img align="right" src="https://play-lh.googleusercontent.com/LWZCyc_QVaXX1PBj3qByh38mc5ppWq3ZzevM8C4U13exF6JKMyO_JW9PEXSHZJ51Msw=w460-h215-r" style="margin-left: 25px; margin-top: 17px; margin-bottom: 10px" class="lazyload">
 
 DIG DEEP and uncover the hidden story behind Deep Town and along the way discover story artifacts, dig deeper, and build mining stations to produce more resources! [[Android](https://play.google.com/store/apps/details?id=com.rockbite.deeptown) / [iOS](https://apps.apple.com/us/app/deep-town-bergbaubetrieb/id1202240058)]
@@ -180,7 +180,7 @@ Kakele Online is a cross platform, 2D open world MMORPG. In Kakele, you join pla
 # Apps
 There are also some non-game applications made with libGDX.
 
-## [Spine](http://en.esotericsoftware.com) by Esoteric Software
+## [Spine](https://en.esotericsoftware.com/) by Esoteric Software
 <p style="width: 435px; overflow:hidden; float:left"><img align="left" src="https://de.esotericsoftware.com/img/front-what-is-spine.jpg" style="margin-left: -20px; margin-right: 25px; margin-top: 13px; margin-bottom: 23px" class="lazyload"></p>
 
 Spine is an animation tool that focuses specifically on 2D animation for games. Spine aims to have an efficient, streamlined workflow, both for creating animations using the editor and for making use of those animations in games.
