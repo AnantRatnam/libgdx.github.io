@@ -16,15 +16,8 @@ toc_sticky: false
 
 {% include breadcrumbs.html %}
 
-# Ongoing
+# Upcoming
 If you want to stay up to date – join the official [libGDX Discord](/community/discord/)!
-
-## December 2025
-Suggestions: Nov. 30th – Dec. 2nd   
-Voting: 4th – 6th  
-Jam: 7th – 13th
-
-<big>[Enter here!](https://itch.io/jam/libgdx-jam-35)</big>
 
 # Rules
 We encourage camaraderie, teamwork, and good sportsmanship with a side of well-intentioned buffoonery. Nonetheless, there are some rules to be followed:
@@ -39,6 +32,7 @@ We encourage camaraderie, teamwork, and good sportsmanship with a side of well-i
 <br/>
 
 # Past Jams
+* [BRIDGES](https://itch.io/jam/libgdx-jam-35) (December 2025)
 * [Dungeons](https://itch.io/jam/libgdx-jam-34) (September 2025)
 * [Nature's Revenge](https://itch.io/jam/libgdx-jam-33) (June 2025)
 * [Magic and Spells](https://itch.io/jam/libgdx-jam-32) (March 2025)
