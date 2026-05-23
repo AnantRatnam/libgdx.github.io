@@ -14,7 +14,7 @@ intro:
 feature_row:
   - image_path: /assets/images/features/crossplatform.jpeg
     title: "Cross-Platform"
-    excerpt: 'libGDX offers a single API to target: **Windows, Linux (including the Raspberry Pi), macOS, Android, iOS and Web**. Developers can use various backends to access the capabilities of the host platform, **without having to write platform-specific code**. Rendering is handled on all platforms through Open GL ES 2.0/3.0.'
+    excerpt: 'libGDX offers a single API to target: **Windows, Linux (including the Raspberry Pi), macOS, Android, iOS and Web**. Developers can use various backends to access the capabilities of the host platform, **without having to write platform-specific code**. Rendering is handled on all platforms through Open GL ES.'
 feature_row2:
   - image_path: /assets/images/features/reliable.png
     title: "Well proven"
@@ -55,7 +55,7 @@ list5:
   - "Third-party support for Google's [Firebase](https://github.com/mk-5/gdx-fireapp), the [Steamworks API](https://github.com/code-disaster/steamworks4j), [gameanalytics.com](https://github.com/MrStahlfelge/gdx-gameanalytics) and Facebook's [Graph API](https://github.com/TomGrill/gdx-facebook)."
   - "Easy integration of [AdMob](/wiki/third-party/admob-in-libgdx)"
 list6:
-  - "Rendering through [OpenGL ES 2.0/3.0](/wiki/graphics/opengl-es-support) on all platforms"
+  - "Rendering through [OpenGL ES 2.0/3.0/3.1/3.2](/wiki/graphics/opengl-es-support) on all platforms"
   - a:
     title: "**Low-Level OpenGL helpers:**"
     items:
