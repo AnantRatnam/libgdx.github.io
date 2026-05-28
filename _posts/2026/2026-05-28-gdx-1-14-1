@@ -1,0 +1,83 @@
+---
+title: "libGDX 1.14.1"
+classes: wide2
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/update.jpeg
+  caption: "Photo credit: [**Markus Winkler**](https://unsplash.com/photos/cxoR55-bels)"
+  teaser: /assets/images/update.jpeg
+excerpt: "We are proud to present a new release of libGDX: version 1.14.1!"
+
+show_author: true
+author_username: "crykn"
+author_displayname: "damios"
+
+tags:
+  - changelog
+
+categories: news
+---
+If you are looking for past changelogs, check out [this](/news/changelog/) page.
+{: .notice--primary .no-top-margin }
+
+libGDX 1.14.1 has been released with plenty of bug fixes and new features. See the changelog below for a complete overview.
+
+To check out our progress towards the next release, take a look at the [corresponding milestone](https://github.com/libgdx/libgdx/milestone/11) on GitHub. As always, we appreciate feedback on the issues/PRs already part of the milestone and would like to invite you to bring forward anything still missing on our [Discord](/community/discord/) server!
+
+Updating your Gradle project is straight-forward: Check out the instructions [on the wiki](/wiki/articles/updating-libgdx)!
+{: .notice--info}
+
+```
+- [BREAKING CHANGE] iOS: Removed IOSAudio#willTerminate to be replaced by new Audio#dispose.
+- [BREAKING CHANGE] API: The `open/closeTextInputField` API has undergone a bigger rewrite:
+                        - A `NativeInputCloseCallback` has been added, which can be passed over the `NativeInputConfiguration#setCloseCallback`. This will be called on the main thread, once the closing of the native input field is processed. See the javadoc for more information.
+                        - The API will no longer send "ENTER" events automatically on close actions. This can be now done in the close callback by the user.
+                        - `NativeInputConfiguration#maxTextLength` is not nullable anymore. "-1" should be used for unset.
+                        - `TextInputWrapper#setText/setPosition` have been removed and replaced with `writeResults`
+                        - `TextInputWrapper#shouldClose` has been removed and should now be handled over the close callback
+- [BREAKING CHANGE] API: `TextField.OnscreenKeyboard` has been refactored. `OnscreenKeyboard#show(boolean)` has been split of in `OnscreenKeyboard#show(TextField)` and `OnscreenKeyboard#close()`.
+- [BREAKING CHANGE] API: `Json#ignoreUnknownField()` parameters changed to provide more information. Use `object.getClass()` and `value.name` for the old values.
+- API Addition: `Input#KeyboardHeightObserver` was extended by `onKeyboardShow` and `onKeyboardHide`. See javadocs for more info.
+- API Addition: `Input#isTextInputFieldOpened` has been added, to check, whether an InputField opened by `openTextInputField` is open
+- API Addition: Added support for the native input API in scene2d. It can be enabled via `TextField#DEFAULT_ONSCREEN_KEYBOARD = new NativeOnscreenKeyboard()` on startup. This only affects mobile platforms.
+- API Addition: Added multiple NativeInput exclusive options to `TextField`
+                - `setAutocompleteOptions` will set a list of autocomplete options to the user on mobile
+                - `setKeyboardType` will set the keyboard type shown to users
+                - `preventAutoCorrection` will disable auto correct for the textfield
+- Android: The KeyboardHeightObserver will not report duplicate events anymore
+- Android: The KeyboardHeightObserver will now only consider `systemBars`, `ime`, `displayCutout`, `mandatorySystemGestures` for insets.
+- Android: Added missing soundId based API implementations to AsynchronousSound.
+- Android: Fixed possible app crashes on back button/gesture (see #7775).
+- API Change: ObjectSet, IntSet, OrderedSet addAll methods return boolean.
+- API Addition: Added LongSet.
+- iOS: Update to MobiVM 2.3.24
+- API Addition: Added scene2d.ui ScrollPane#smoothScroll() to control smooth scroll speed.
+- API Addition: Added Justify text options to GlyphLayout (#7609)
+- GeometryUtils fixes and improvements.
+- API Addition: IdentitySet
+- API Addition: Add option to load a standalone tileset file
+- API Fix: Fix NPE in AndroidDaydream#onConfigurationChanged
+- API Change: Use IdentityMap for skin resources
+- API Change: Enforce cursor/selectionStart invariants on text change in TextField
+- API Fix: Calculate cachedOrientation on startup
+- API Fix: Don't set Android LAYOUT_IN_DISPLAY_CUTOUT_MODE_SHORT_EDGES cutout mode on Android 35+
+- API Fix: Fix NPE in AndroidGraphics#updateSafeAreaInsets
+- API Fix: Fix TextField and TextArea cursor drift and unreachable logic on event cancellation
+- API Fix: Fix TextField and TextArea undo do not fire ChangeEvent
+- API Addition: Add Justify text option to Label
+- API Fix: Prevent delta time from being negative
+- API Fix: Json can't read back CharArray in some cases.
+- API Change: Make some ModelBuilder-related fields protected
+- API Addition: Introduce separate Lwjgl3ApplicationConfiguration#setRGBABits, #setDepthBits, #setStencilBits and #setSamples
+- API Fix: Fix detection of running in Angle gles compat for glMipMapGeneration
+- API Fix: Properly Update XmlReader.Element's parent field when element is added/removed
+- API Fix: Fix NinePatch created from flipped TextureAtlas
+- API Fix: Fix nested class property defaults loading with Tiled maps
+- API Addition: Added soundId support for AsynchronousSound
+- API Fix: Fix collider bounds check in Octree
+- API Fix: Fix ANR/crash in AndroidGraphics#destroy() due to infinite wait()
+- API Change: Add return values to InputProcessor#removeProcessor
+- API Fix: Make PoolManager compatible with r8 full mode
+- A couple small javadoc improvements
+```
